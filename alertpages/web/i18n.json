@@ -1,0 +1,50 @@
+{
+  "en": {
+    "dir": "ltr", "name": "English",
+    "kind": {"earthquake": "Earthquake", "weather": "Weather warning", "flood": "Flood", "cyclone": "Tropical cyclone", "wildfire": "Wildfire", "volcano": "Volcano", "drought": "Drought", "tsunami": "Tsunami", "other": "Alert"},
+    "severity": {"unknown": "Unknown", "minor": "Minor", "moderate": "Moderate", "severe": "Severe", "extreme": "Extreme"},
+    "magnitude": "M", "depth": "Depth", "km": "km", "sources": "Sources", "updated": "Updated",
+    "offline": "Offline: showing the last saved copy", "stale": "Data may be out of date",
+    "empty": "No alerts match the current filters.", "all": "All", "min_mag": "Min. magnitude",
+    "feed": "RSS feed", "source_status": "Source status", "ok": "OK", "failed": "unreachable",
+    "disclaimer": "Relays public agency feeds every few minutes. Not an early-warning system — follow official instructions.",
+    "ago_m": "{n} min ago", "ago_h": "{n} h ago", "ago_d": "{n} d ago", "now": "just now", "expires": "Until",
+    "install": "Install app"
+  },
+  "tr": {
+    "dir": "ltr", "name": "Türkçe",
+    "kind": {"earthquake": "Deprem", "weather": "Meteorolojik uyarı", "flood": "Sel", "cyclone": "Tropikal fırtına", "wildfire": "Orman yangını", "volcano": "Yanardağ", "drought": "Kuraklık", "tsunami": "Tsunami", "other": "Uyarı"},
+    "severity": {"unknown": "Bilinmiyor", "minor": "Düşük", "moderate": "Orta", "severe": "Ciddi", "extreme": "Çok ciddi"},
+    "magnitude": "M", "depth": "Derinlik", "km": "km", "sources": "Kaynaklar", "updated": "Güncellendi",
+    "offline": "Çevrimdışı: son kaydedilen kopya gösteriliyor", "stale": "Veriler güncel olmayabilir",
+    "empty": "Filtrelere uyan uyarı yok.", "all": "Tümü", "min_mag": "En küçük büyüklük",
+    "feed": "RSS akışı", "source_status": "Kaynak durumu", "ok": "Çalışıyor", "failed": "erişilemedi",
+    "disclaimer": "Resmî kurumların açık akışlarını birkaç dakikada bir aktarır. Erken uyarı sistemi değildir; resmî talimatlara uyun.",
+    "ago_m": "{n} dk önce", "ago_h": "{n} sa önce", "ago_d": "{n} gün önce", "now": "az önce", "expires": "Bitiş",
+    "install": "Uygulamayı yükle"
+  },
+  "ar": {
+    "dir": "rtl", "name": "العربية",
+    "kind": {"earthquake": "زلزال", "weather": "تحذير جوي", "flood": "فيضان", "cyclone": "إعصار مداري", "wildfire": "حريق غابات", "volcano": "بركان", "drought": "جفاف", "tsunami": "تسونامي", "other": "تنبيه"},
+    "severity": {"unknown": "غير معروف", "minor": "طفيف", "moderate": "متوسط", "severe": "شديد", "extreme": "شديد جدًا"},
+    "magnitude": "M", "depth": "العمق", "km": "كم", "sources": "المصادر", "updated": "آخر تحديث",
+    "offline": "غير متصل: يتم عرض آخر نسخة محفوظة", "stale": "قد تكون البيانات قديمة",
+    "empty": "لا توجد تنبيهات مطابقة للمرشحات.", "all": "الكل", "min_mag": "أدنى قوة",
+    "feed": "موجز RSS", "source_status": "حالة المصادر", "ok": "يعمل", "failed": "تعذّر الوصول",
+    "disclaimer": "ينقل البيانات العامة للجهات الرسمية كل بضع دقائق. ليس نظام إنذار مبكر — اتبع التعليمات الرسمية.",
+    "ago_m": "قبل {n} دقيقة", "ago_h": "قبل {n} ساعة", "ago_d": "قبل {n} يوم", "now": "الآن", "expires": "حتى",
+    "install": "تثبيت التطبيق"
+  },
+  "es": {
+    "dir": "ltr", "name": "Español",
+    "kind": {"earthquake": "Sismo", "weather": "Aviso meteorológico", "flood": "Inundación", "cyclone": "Ciclón tropical", "wildfire": "Incendio forestal", "volcano": "Volcán", "drought": "Sequía", "tsunami": "Tsunami", "other": "Alerta"},
+    "severity": {"unknown": "Desconocida", "minor": "Menor", "moderate": "Moderada", "severe": "Grave", "extreme": "Extrema"},
+    "magnitude": "M", "depth": "Profundidad", "km": "km", "sources": "Fuentes", "updated": "Actualizado",
+    "offline": "Sin conexión: se muestra la última copia guardada", "stale": "Los datos pueden estar desactualizados",
+    "empty": "Ninguna alerta coincide con los filtros.", "all": "Todas", "min_mag": "Magnitud mín.",
+    "feed": "Fuente RSS", "source_status": "Estado de las fuentes", "ok": "OK", "failed": "sin respuesta",
+    "disclaimer": "Retransmite fuentes públicas oficiales cada pocos minutos. No es un sistema de alerta temprana: siga las instrucciones oficiales.",
+    "ago_m": "hace {n} min", "ago_h": "hace {n} h", "ago_d": "hace {n} d", "now": "ahora", "expires": "Hasta",
+    "install": "Instalar app"
+  }
+}

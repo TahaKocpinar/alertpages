@@ -1,0 +1,40 @@
+# Same pipeline as alertpages.toml, but every source reads a recorded fixture.
+[site]
+title = "Fixture run"
+languages = ["en", "tr"]
+timezone = "Europe/Istanbul"
+
+[[sources]]
+type = "afad"
+fixture = "afad.json"
+
+[[sources]]
+type = "kandilli"
+fixture = "kandilli_lst0.html"
+
+[[sources]]
+type = "emsc"
+fixture = "emsc.json"
+
+[[sources]]
+type = "usgs"
+fixture = "usgs.json"
+
+[[sources]]
+type = "gdacs"
+fixture = "gdacs.xml"
+
+[[sources]]
+type = "cap"
+name = "meteoalarm"
+kind = "weather"
+fixture = "meteoalarm_greece.atom"
+
+[display]
+max_age_hours = 240
+
+[telegram]
+language = "tr"
+min_magnitude = 2.0
+max_age_hours = 240
+bbox = [25.5, 35.5, 45.0, 42.5]
