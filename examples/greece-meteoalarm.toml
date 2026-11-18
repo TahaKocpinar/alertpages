@@ -1,0 +1,29 @@
+# Weather warnings from any CAP 1.2 Atom feed (here: MeteoAlarm Greece) plus
+# EMSC earthquakes around the Aegean. Telegram only for Athens and Thessaloniki.
+
+[site]
+title = "Greece: weather warnings and earthquakes"
+languages = ["en"]
+timezone = "Europe/Athens"
+
+[[sources]]
+type = "cap"
+name = "meteoalarm"
+kind = "weather"
+url = "https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-greece"
+
+[[sources]]
+type = "emsc"
+bbox = [19.0, 34.5, 29.8, 41.8]
+
+[display]
+max_age_hours = 48
+
+[telegram]
+language = "en"
+min_magnitude = 4.5
+min_severity = "moderate"
+regions = [
+  { name = "Attica", lat = 37.98, lon = 23.73, radius_km = 150 },
+  { name = "Central Macedonia", lat = 40.64, lon = 22.94, radius_km = 120 },
+]

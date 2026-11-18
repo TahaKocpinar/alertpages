@@ -1,0 +1,47 @@
+name: relay
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub may delay scheduled runs by several minutes
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["alertpages.toml", "alertpages/**", ".github/workflows/relay.yml"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: relay
+  cancel-in-progress: false
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Fetch feeds, relay new alerts, build site
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: >
+          python -m alertpages run
+          --config alertpages.toml
+          --out _site
+          --state-url "${{ steps.pages.outputs.base_url }}/state.json"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

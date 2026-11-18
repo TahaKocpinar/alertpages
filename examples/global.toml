@@ -1,0 +1,27 @@
+# Worldwide: USGS M4.5+ and every GDACS alert, English + Spanish.
+
+[site]
+title = "Global disaster alerts"
+languages = ["en", "es", "ar", "tr"]
+timezone = "UTC"
+
+[[sources]]
+type = "usgs"
+feed = "4.5_day"
+
+[[sources]]
+type = "emsc"
+min_magnitude = 4.5
+lookback_hours = 48
+
+[[sources]]
+type = "gdacs"
+
+[display]
+max_age_hours = 48
+
+[telegram]
+language = "en"
+min_magnitude = 6.0
+min_severity = "severe"
+max_age_hours = 3
