@@ -1,8 +1,8 @@
 """Kandilli Observatory (KOERI) "Son Depremler" list (lst0.asp).
 
 The page is a windows-1254 <pre> block; times are Turkish local time (UTC+3,
-no DST since 2016). The endpoint is often unreachable from outside Türkiye,
-including GitHub-hosted runners; failures are reported, not fatal.
+no DST since 2016). The endpoint is unreachable from some networks; failures
+are reported on the page, not fatal.
 """
 
 from __future__ import annotations

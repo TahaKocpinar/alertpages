@@ -110,7 +110,7 @@ python -m unittest discover -s tests                 # 39 tests, offline fixture
 
 - Scheduled workflows run every 5 minutes at best and are often delayed by 5 to 15 minutes under load. Expect alerts a few minutes after the agency publishes them.
 - GitHub disables scheduled workflows in repositories with no activity for 60 days; you get an email and can re-enable with one click.
-- Kandilli's `lst0.asp` is frequently unreachable from outside Türkiye, including GitHub-hosted runners. AFAD and EMSC (which ingests KOERI data) cover the same events; a self-hosted runner in Türkiye fixes it.
+- Kandilli's `lst0.asp` is an HTML page, not an API, and is unreachable from some networks (it works from GitHub-hosted runners at the time of writing). When it fails, AFAD and EMSC still cover the same events and the page marks Kandilli as unreachable.
 - Magnitudes differ between agencies; all of them are shown rather than picking a "true" value.
 
 ## Data sources and attribution

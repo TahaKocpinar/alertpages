@@ -15,7 +15,7 @@ type = "afad"
 lookback_hours = 72
 
 [[sources]]
-type = "kandilli"   # often unreachable from GitHub runners; failures are shown, not fatal
+type = "kandilli"   # HTML page, unreachable from some networks; failures are shown, not fatal
 
 [[sources]]
 type = "emsc"
