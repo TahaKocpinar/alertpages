@@ -1,0 +1,341 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "generated": 1794977456000,
+  "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
+  "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
+  "status": 200,
+  "api": "2.8.2",
+  "count": 8
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.2,
+    "place": "54 km NNE of Ruteng, Indonesia",
+    "time": 1794975695658,
+    "updated": 1794976538040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxc",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tyxc.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 416,
+    "net": "us",
+    "code": "7000tyxc",
+    "ids": ",us7000tyxc,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 40,
+    "dmin": 3.241,
+    "rms": 1.04,
+    "gap": 87,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 5.2 - 54 km NNE of Ruteng, Indonesia"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.6489,
+     -8.151,
+     10
+    ]
+   },
+   "id": "us7000tyxc"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.8,
+    "place": "99 km ESE of Madang, Papua New Guinea",
+    "time": 1794973354269,
+    "updated": 1794975646183,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyx2",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tyx2.geojson",
+    "felt": 3,
+    "cdi": 4.1,
+    "mmi": 4.475,
+    "alert": "green",
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 519,
+    "net": "us",
+    "code": "7000tyx2",
+    "ids": ",us7000tyx2,",
+    "sources": ",us,",
+    "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+    "nst": 65,
+    "dmin": 3.724,
+    "rms": 0.85,
+    "gap": 29,
+    "magType": "mww",
+    "type": "earthquake",
+    "title": "M 5.8 - 99 km ESE of Madang, Papua New Guinea"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.5479,
+     -5.7009,
+     52.291
+    ]
+   },
+   "id": "us7000tyx2"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 2.6,
+    "place": "8 km W of Healy, Alaska",
+    "time": 1794973191225,
+    "updated": 1794973613042,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wvejbp",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wvejbp.geojson",
+    "felt": 1,
+    "cdi": 3.1,
+    "mmi": null,
+    "alert": null,
+    "status": "automatic",
+    "tsunami": 0,
+    "sig": 104,
+    "net": "ak",
+    "code": "a2026wvejbp",
+    "ids": ",aka2026wvejbp,",
+    "sources": ",ak,",
+    "types": ",dyfi,origin,phase-data,",
+    "nst": 55,
+    "dmin": 0.2,
+    "rms": 0.9,
+    "gap": 31,
+    "magType": "ml",
+    "type": "earthquake",
+    "title": "M 2.6 - 8 km W of Healy, Alaska"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -149.148,
+     63.859,
+     0.3
+    ]
+   },
+   "id": "aka2026wvejbp"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.8,
+    "place": "134 km ENE of Nabire, Indonesia",
+    "time": 1794972238023,
+    "updated": 1794973354040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywx",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tywx.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 354,
+    "net": "us",
+    "code": "7000tywx",
+    "ids": ",us7000tywx,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 38,
+    "dmin": 10.739,
+    "rms": 1.04,
+    "gap": 73,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 4.8 - 134 km ENE of Nabire, Indonesia"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.6576,
+     -2.9907,
+     10
+    ]
+   },
+   "id": "us7000tywx"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 2.6,
+    "place": "11 km SW of Weston, Colorado",
+    "time": 1794970893114,
+    "updated": 1794972782040,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywr",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tywr.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 104,
+    "net": "us",
+    "code": "7000tywr",
+    "ids": ",us7000tywr,",
+    "sources": ",us,",
+    "types": ",origin,phase-data,",
+    "nst": 14,
+    "dmin": 0.139,
+    "rms": 1.08,
+    "gap": 102,
+    "magType": "ml",
+    "type": "earthquake",
+    "title": "M 2.6 - 11 km SW of Weston, Colorado"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9291,
+     37.0461,
+     6.081
+    ]
+   },
+   "id": "us7000tywr"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 4.06,
+    "place": "47 km S of Boca de Yuma, Dominican Republic",
+    "time": 1794969976700,
+    "updated": 1794974578707,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026322000",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2026322000.geojson",
+    "felt": 4,
+    "cdi": 2.9,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 255,
+    "net": "pr",
+    "code": "2026322000",
+    "ids": ",us7000tywm,pr2026322000,",
+    "sources": ",us,pr,",
+    "types": ",dyfi,origin,phase-data,",
+    "nst": 30,
+    "dmin": 0.6125,
+    "rms": 0.54,
+    "gap": 201,
+    "magType": "md",
+    "type": "earthquake",
+    "title": "M 4.1 - 47 km S of Boca de Yuma, Dominican Republic"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.6115,
+     17.9463,
+     90
+    ]
+   },
+   "id": "pr2026322000"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.8,
+    "place": "150 km SW of Merizo Village, Guam",
+    "time": 1794968576671,
+    "updated": 1794976389833,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywi",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000tywi.geojson",
+    "felt": 8,
+    "cdi": 3.3,
+    "mmi": 0,
+    "alert": "green",
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 520,
+    "net": "us",
+    "code": "7000tywi",
+    "ids": ",us7000tywi,pt26322050,",
+    "sources": ",us,pt,",
+    "types": ",dyfi,event-sequence,losspager,oaf,origin,phase-data,shakemap,",
+    "nst": 92,
+    "dmin": 3.591,
+    "rms": 1.1,
+    "gap": 38,
+    "magType": "mww",
+    "type": "earthquake",
+    "title": "M 5.8 - 150 km SW of Merizo Village, Guam"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.8866,
+     12.1387,
+     10
+    ]
+   },
+   "id": "us7000tywi"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 2.8,
+    "place": "65 km SE of Denali National Park, Alaska",
+    "time": 1794963771758,
+    "updated": 1794963984140,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wuzcyb",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026wuzcyb.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "automatic",
+    "tsunami": 0,
+    "sig": 121,
+    "net": "ak",
+    "code": "a2026wuzcyb",
+    "ids": ",aka2026wuzcyb,",
+    "sources": ",ak,",
+    "types": ",origin,phase-data,",
+    "nst": 81,
+    "dmin": 0.7,
+    "rms": 0.6,
+    "gap": 46,
+    "magType": "ml",
+    "type": "earthquake",
+    "title": "M 2.8 - 65 km SE of Denali National Park, Alaska"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -150.666,
+     63.19,
+     129.7
+    ]
+   },
+   "id": "aka2026wuzcyb"
+  }
+ ],
+ "bbox": [
+  -179.7903,
+  -43.0226,
+  0.3,
+  179.8423,
+  63.859,
+  593.667
+ ]
+}
