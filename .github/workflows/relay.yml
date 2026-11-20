@@ -21,9 +21,6 @@ jobs:
   relay:
     runs-on: ubuntu-latest
     timeout-minutes: 8
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,5 +40,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - id: deploy
+  deploy:
+    needs: relay
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
         uses: actions/deploy-pages@v4
