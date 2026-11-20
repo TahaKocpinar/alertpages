@@ -21,7 +21,7 @@ classifiers = [
 alertpages = "alertpages.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/TahaKocpinar/alertpages"
+Homepage = "https://github.com/tahakocp/alertpages"
 
 [tool.setuptools]
 packages = ["alertpages", "alertpages.sources"]

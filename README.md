@@ -2,7 +2,7 @@
 
 **A disaster alert relay you deploy by clicking "Use this template": GitHub Actions polls official earthquake and hazard feeds, publishes an offline-capable alert page on GitHub Pages, and pushes new alerts to Telegram. No server, no database, no dependencies.**
 
-[Live demo (Türkiye preset)](https://tahakocpinar.github.io/alertpages/) · [Türkçe](#türkçe)
+[Live demo (Türkiye preset)](https://tahakocp.github.io/alertpages/) · [Türkçe](#türkçe)
 
 ![alertpages showing merged AFAD + EMSC reports](docs/screenshot.png)
 
@@ -100,7 +100,7 @@ The "already sent" state is published with the site (`state.json`) and read back
 Python 3.11+, standard library only.
 
 ```bash
-git clone https://github.com/TahaKocpinar/alertpages && cd alertpages
+git clone https://github.com/tahakocp/alertpages && cd alertpages
 python -m alertpages run --dry-run --out _site       # live feeds, prints Telegram messages
 python -m http.server -d _site 8000                  # open http://localhost:8000
 python -m unittest discover -s tests                 # 39 tests, offline fixtures

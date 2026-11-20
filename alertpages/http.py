@@ -6,7 +6,7 @@ import urllib.request
 
 from . import __version__
 
-USER_AGENT = f"alertpages/{__version__} (+https://github.com/TahaKocpinar/alertpages)"
+USER_AGENT = f"alertpages/{__version__} (+https://github.com/tahakocp/alertpages)"
 
 
 class FetchError(Exception):

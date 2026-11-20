@@ -1,7 +1,7 @@
 # Contributing
 
 ```
-git clone https://github.com/TahaKocpinar/alertpages
+git clone https://github.com/tahakocp/alertpages
 cd alertpages
 python -m unittest discover -s tests -v
 ```
